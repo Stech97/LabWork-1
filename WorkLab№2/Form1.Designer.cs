@@ -1,4 +1,4 @@
-namespace LabWork_1
+namespace WorkLab_2
 {
     partial class Form1
     {
@@ -33,7 +33,7 @@ namespace LabWork_1
             this.label5 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -41,25 +41,25 @@ namespace LabWork_1
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(14, 20);
+            this.label1.Location = new System.Drawing.Point(28, 20);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(147, 17);
+            this.label1.Size = new System.Drawing.Size(25, 17);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Введите значение X:";
+            this.label1.Text = "X=";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(14, 65);
+            this.label2.Location = new System.Drawing.Point(28, 65);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(147, 17);
+            this.label2.Size = new System.Drawing.Size(25, 17);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Введите значение Y:";
+            this.label2.Text = "Y=";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(14, 99);
+            this.label5.Location = new System.Drawing.Point(28, 99);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(242, 17);
             this.label5.TabIndex = 7;
@@ -67,30 +67,30 @@ namespace LabWork_1
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(169, 20);
+            this.textBox1.Location = new System.Drawing.Point(59, 20);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(195, 22);
+            this.textBox1.Size = new System.Drawing.Size(100, 22);
             this.textBox1.TabIndex = 8;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(169, 65);
+            this.textBox2.Location = new System.Drawing.Point(59, 65);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(195, 22);
+            this.textBox2.Size = new System.Drawing.Size(100, 22);
             this.textBox2.TabIndex = 9;
             // 
-            // textBox5
+            // textBox3
             // 
-            this.textBox5.Location = new System.Drawing.Point(17, 135);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBox5.Size = new System.Drawing.Size(350, 150);
-            this.textBox5.TabIndex = 12;
+            this.textBox3.Location = new System.Drawing.Point(31, 135);
+            this.textBox3.Multiline = true;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.textBox3.Size = new System.Drawing.Size(300, 150);
+            this.textBox3.TabIndex = 12;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(17, 291);
+            this.button1.Location = new System.Drawing.Point(31, 291);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 30);
             this.button1.TabIndex = 13;
@@ -100,30 +100,31 @@ namespace LabWork_1
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(267, 291);
+            this.button2.Location = new System.Drawing.Point(231, 291);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 30);
             this.button2.TabIndex = 14;
             this.button2.Text = "Очистить";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(382, 333);
+            this.ClientSize = new System.Drawing.Size(362, 333);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Лаб. раб. №1 Ст. гр.";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Text = "Лаб. раб. №2 Ст. гр.";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -135,7 +136,7 @@ namespace LabWork_1
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
     }
