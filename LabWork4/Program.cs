@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LabWork4
+namespace WorkLab_4
 {
 
     struct Student
