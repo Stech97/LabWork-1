@@ -19,7 +19,7 @@ namespace WorkLab_10_2
 
             for (i = 0; i < 10; i++)
                 for (j = 0; j < 10; j++)
-                    b[i, j] = rand.Next(-100, -50);
+                    b[i, j] = rand.Next(-100, 100);
             for (i = 0; i < 10; i++)
                 for (j = 0; j < 10; j++)
                     dataGridView1.Rows[i].Cells[j].Value = b[i, j].ToString();
