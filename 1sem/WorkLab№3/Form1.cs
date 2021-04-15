@@ -26,5 +26,10 @@ namespace WorkLab_3
                 textBox6.Text += "x=" + Convert.ToString(x) +"; y=" + Convert.ToString(y) + Environment.NewLine;
             }
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
